@@ -1,0 +1,79 @@
+{
+  "public_health" : {
+    "hospitals": {"amenity": "hospital"},
+    "clinics": {"amenity": "clinic"},
+    "pharmacies": {"amenity": "pharmacy"},
+    "centers": {"amenity": "healthcare"},
+    "dentists": {"amenity": "dentist"}
+  },
+  "transportation_accessibility" : {
+    "roads": {"highway": true},
+    "major_roads": {"highway": ["motorway", "trunk", "primary"]},
+    "bridges": {"man_made": "bridge"},
+    "public_transport_stations": {"railway": "station"},
+    "bus_stops": {"highway": "bus_stop"},
+    "road_conditions": {"surface": ["paved", "asphalt", "concrete"]},
+    "bridge_conditions": {"man_made": "bridge"},
+    "public_transport_reliability": {"public_transport": true},
+    "railways": {"railway": true},
+    "train_stations": {"amenity": "train_station"},
+    "bike_racks": {"amenity": "bicycle_parking"},
+    "safe_pedestrian_crossings": {"crossing": "traffic_signals"},
+    "walkable_neighborhoods": {"landuse": "residential"}
+  },
+  "environmental_factors" : {
+    "air_quality": {"air": "yes"},
+    "water_quality": {"waterway": "river"},
+    "green_spaces": {"leisure": "park"},
+    "pollution_sources": {"man_made": "wastewater_plant"},
+    "air_quality_monitors": {"amenity": "air_quality_monitoring_station"},
+    "clean_water_sources": {"waterway": "stream", "waterway": "river"},
+    "parks_with_trees": {"leisure": "park", "natural": "tree"},
+    "natural_features": {"natural": "wood"}
+  },
+  "quality_of_living" : {
+    "green_spaces": {"leisure": ["park", "garden"]},
+    "pollution_sources": {"landuse": ["industrial", "landfill", "quarry"]},
+    "natural_features": {"natural": ["wood", "scrub", "wetland", "grassland"]},
+    "water_bodies": {"natural": ["water", "waterway"]}
+  },
+  "walkability_accessibility" : {
+    "sidewalks": {"highway": "footway"},
+    "crosswalks": {"highway": "crossing"},
+    "pedestrian_zones": {"highway": "pedestrian"},
+    "bike_paths": {"highway": "cycleway"},
+    "traffic_calming": {"traffic_calming": true}
+  },
+  "disaster_prone_areas_and_evacuation_routes" : {
+    "disaster_prone_areas_natural": ["avalanche", "landslide", "floodplain", "hurricane"],
+    "disaster_prone_areas_geological": "fault",
+    "disaster_prone_areas_landuse": ["quarry", "mine"],
+    "evacuation_routeshighway": ["motorway", "trunk", "primary", "secondary", "tertiary"],
+    "evacuation_routesroute": "evacuation",
+    "evacuation_routesemergency": "yes"
+  },
+  "vulnerable_areas" : {
+    "slums": {"landuse": "residential", "residential": "slum"},
+    "informal_settlements": {"landuse": "residential", "informal": "yes"},
+    "shantytowns": {"landuse": "residential", "residential": "shantytown"},
+    "vulnerable_communities": {"social_facility": "social_community"},
+    "impoverished_regions": {"social_facility": "social_service"}
+  },
+  "food_and_drink": {
+    "grocery_stores": {"shop": "supermarket"},
+    "farmers_markets": {"market": "farmers_market"},
+    "restaurants": {"amenity": "restaurant"},
+    "cafes": {"amenity": "cafe"},
+    "bars": {"amenity": "bar"},
+    "food_banks": {"amenity": "food_bank"},
+    "soup_kitchens": {"amenity": "soup_kitchen"}
+  },
+  "physical_activity": {
+    "parks": {"leisure": "park"},
+    "playgrounds": {"leisure": "playground"},
+    "trails": {"leisure": "trail"},
+    "bike_lanes": {"highway": "cycleway"},
+    "gyms": {"amenity": "gym"},
+    "sports_fields": {"sport": "pitch"}
+  }
+}

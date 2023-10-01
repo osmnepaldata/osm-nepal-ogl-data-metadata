@@ -1,0 +1,94 @@
+{
+  "parks_and_recreation": {
+      "parks": {"leisure": "park"},
+      "gardens": {"leisure": "garden"},
+      "playgrounds": {"leisure": "playground"},
+      "recreational_areas": {"leisure": "recreation_ground"}
+  },
+  "healthcare_facilities": {
+      "hospitals": {"amenity": "hospital"},
+      "clinics": {"amenity": "clinic"},
+      "pharmacies": {"amenity": "pharmacy"},
+      "healthcare_centers": {"amenity": "healthcare"},
+      "dentists": {"amenity": "dentist"}
+  },
+  "education": {
+      "schools": {"amenity": "school"},
+      "universities": {"amenity": "university"},
+      "colleges": {"amenity": "college"},
+      "preschools": {"amenity": "kindergarten"},
+      "libraries": {"amenity": "library"}
+  },
+  "cultural_centers": {
+      "theaters": {"amenity": "theatre"},
+      "museums": {"amenity": "museum"},
+      "libraries": {"amenity": "library"},
+      "cultural_centers": {"amenity": "community_centre"}
+  },
+  "transportation": {
+      "roads": {"highway": true},
+      "motorways": {"highway": "motorway"},
+      "trunk_roads": {"highway": "trunk"},
+      "primary_roads": {"highway": "primary"},
+      "secondary_roads": {"highway": "secondary"},
+      "tertiary_roads": {"highway": "tertiary"},
+      "residential_roads": {"highway": "residential"},
+      "cycleways": {"highway": "cycleway"},
+      "footpaths": {"highway": "footway"},
+      "bridges": {"man_made": "bridge"},
+      "railways": {"railway": true},
+      "railway_stations": {"railway": "station"},
+      "bus_stops": {"highway": "bus_stop"},
+      "public_transport": {"amenity": "public_transport"},
+      "bike_paths": {"cycleway": true}
+  },
+  "infrastructure": {
+      "schools": { "amenity": "school" },
+      "hospitals": { "amenity": "hospital" },
+      "libraries": { "amenity": "library" },
+      "parks": { "leisure": "park" },
+      "playgrounds": { "leisure": "playground" },
+      "green_spaces": { "landuse": "greenspace" }
+  },
+  "housing": {
+      "buildings": { "building": true },
+      "apartments": { "building_type": "apartments" },
+      "houses": { "building_type": "house" },
+      "condos": { "building_type": "condominium" }
+  },
+  "businesses": {
+      "restaurants": { "amenity": "restaurant" },
+      "shops": { "amenity": "shop" },
+      "grocery_stores": { "shop": "supermarket" },
+      "banks": { "amenity": "bank" }
+  },
+  "services": {
+      "police_stations": { "amenity": "police" },
+      "fire_stations": { "amenity": "fire_station" },
+      "post_offices": { "amenity": "post_office" },
+      "libraries": { "amenity": "library" }
+  },
+  "crime_and_safety": {
+      "police_stations": {"amenity": "police"},
+      "fire_stations": {"amenity": "fire_station"},
+      "emergency_services": {"amenity": ["police", "fire_station", "ambulance_station"]},
+      "crime_related_crime_hotspots": {"crime": "hotspot"},
+      "crime_related_crime_prone_areas": {"crime": "prone_area"}
+  },
+  "accessibility_disabilities": {
+      "wheelchair_accessible_areas": {"wheelchair": "yes"},
+      "pedestrian_paths": {"highway": "footway"},
+      "public_transit_stops": {"amenity": "bus_stop"}
+  },
+  "natural_features": {
+      "rivers": { "waterway": "river" },
+      "lakes": { "waterway": "lake" },
+      "forests": { "landuse": "forest" },
+      "mountains": { "landuse": "landcover" }
+  },
+  "community_support_services": {
+      "community_centers": {"amenity": "community_centre"},
+      "religious_institutions": {"amenity": "place_of_worship"},
+      "social_support_services": {"social_facility": true}
+  }
+}

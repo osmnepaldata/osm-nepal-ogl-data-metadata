@@ -1,0 +1,95 @@
+{
+  "land_use": {
+      "commercial": {"landuse": "commercial"},
+      "industrial": {"landuse": "industrial"},
+      "residential": {"landuse": "residential"},
+      "agricultural": {"landuse": "agricultural"},
+      "public": {"landuse": "public"}
+  },
+  "buildings": {
+      "offices": {"building": "office"},
+      "factories": {"building": "industrial"},
+      "warehouses": {"building": "storage"},
+      "retail": {"building": "retail"},
+      "restaurants": {"building": "food"}
+  },
+  "transportation": {
+      "roads": {"highway": true},
+      "major_roads": {"highway": ["motorway", "trunk", "primary"]},
+      "railways": {"railway": true},
+      "ports": {"harbour": "yes"},
+      "airports": {"aeroway": "aerodrome"}
+  },
+  "utilities": {
+      "power_lines": {"power": true},
+      "water_mains": {"water": true},
+      "gas_lines": {"gas": true}
+  },
+  "retail": {
+      "grocery_stores": {"shop": "supermarket"},
+      "shopping_malls": {"shop": "mall"},
+      "clothing_stores": {"shop": "clothes"},
+      "electronics_stores": {"shop": "electronics"},
+      "department_stores": {"shop": "department_store"}
+  },
+  "restaurants": {
+      "fast_food": {"amenity": "fast_food"},
+      "sit_down": {"amenity": "restaurant"},
+      "cafes": {"amenity": "cafe"}
+  },
+  "offices": {
+      "coworking_spaces": {"office": "coworking_space"},
+      "startup_hubs": {"office": "startup_hub"}
+  },
+  "factories": {
+      "manufacturing": {"industry": "manufacturing"},
+      "food_processing": {"industry": "food_processing"}
+  },
+  "warehouses": {
+      "storage": {"industry": "storage"}
+  },
+  "parking_lots": {
+      "public": {"parking": "public"},
+      "private": {"parking": "private"}
+  },
+  "green_spaces": {
+      "parks": {"leisure": "park"},
+      "gardens": {"leisure": "garden"}
+  },
+  "nighttime_lights": {
+      "bright": {"man_made": "light_source"},
+      "dim": {"man_made": "light_source"}
+  },
+  "traffic_volume": {
+      "high": {"highway": true},
+      "low": {"highway": true}
+  },
+  "pedestrian_traffic": {
+      "high": {"amenity": "crossing"},
+      "low": {"amenity": "crossing"}
+  },
+  "telecommunications": {
+      "cell_towers": {"man_made": "communications_tower"},
+      "fiber_optic_cables": {"man_made": "pipeline", "pipeline": "fiber"},
+      "telecom_infrastructure": {"man_made": "telecom"}
+  },
+  "water_sanitation": {
+      "water_treatment_plants": {"man_made": "water_works"},
+      "sewage_treatment_facilities": {"man_made": "sewage_works"},
+      "water_distribution_networks": {"man_made": "pipeline"},
+      "sewer_networks": {"man_made": "sewer"}
+  },
+  "healthcare": {
+      "hospitals": {"amenity": "hospital"},
+      "clinics": {"amenity": "clinic"},
+      "pharmacies": {"amenity": "pharmacy"},
+      "healthcare_centers": {"amenity": "healthcare"},
+      "dentists": {"amenity": "dentist"}
+  },
+  "pois": {
+      "restaurants": {"amenity": "restaurant"},
+      "hotels": {"tourism": "hotel"},
+      "shopping_centers": {"shop": "mall"},
+      "cultural_venues": {"tourism": ["museum", "art_gallery", "theatre"]}
+  }
+}

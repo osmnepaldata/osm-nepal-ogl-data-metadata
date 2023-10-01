@@ -1,0 +1,51 @@
+{
+  "education": {
+    "schools": {"amenity": "school"},
+    "colleges": {"amenity": "college"},
+    "universities": {"amenity": "university"},
+    "vocational_training_centers": { "amenity": "vocational_training_center" },
+    "adult_education_centers": { "amenity": "adult_education_center" },
+    "special_education_schools": { "amenity": "special_education_school" },
+    "language_schools": { "amenity": "language_school" },
+    "religious_schools": { "amenity": "religious_school" },
+    "military_schools": { "amenity": "military_school" },
+    "prison_schools": { "amenity": "prison_school" }
+  },
+  "educational_resources": {
+    "libraries": {"amenity": "library"},
+    "sports_facilities": {"leisure": "sports_centre"},
+    "community_centers": {"amenity": "community_centre"},
+    "museums": {"amenity": "museum"},
+    "art_centers": {"amenity": "arts_centre"},
+    "science_centers": {"amenity": "science_center"},
+    "art_galleries": {"amenity": "art_gallery"},
+    "after_school_programs": {"amenity": "after_school_program"}
+  },
+  "public_transportation": {
+    "bus_stops": {"highway": "bus_stop"},
+    "train_stations": {"railway": "station"},
+    "roads": {"highway": true},
+    "major_roads": {"highway": ["motorway", "trunk", "primary"]},
+    "railways": {"railway": true}
+  },
+  "accessibility_educational": {
+    "footpaths": {"highway": "footway"},
+    "bicycle_routes": {"highway": ["cycleway", "path"]}
+  },
+  "university_environment": {
+    "universities": {"amenity": "university"},
+    "colleges": {"amenity": "college"},
+    "schools": {"amenity": "school", "education": "university"},
+    "rivers": {"natural": "water", "waterway": "river"},
+    "mountains": {"natural": "peak"},
+    "forests": {"landuse": "forest"}
+  },
+  "educational_environment_quality": {
+    "supermarkets": {"shop": "supermarket"},
+    "parks": {"leisure": "park"},
+    "libraries": {"resource": "library"},
+    "sports_facilities": {"facility_type": "sports"},
+    "public_transport": {"transport_type": "public"},
+    "healthcare_facilities": {"facility_type": "healthcare"}
+  }
+}
